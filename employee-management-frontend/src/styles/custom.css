@@ -1,0 +1,33 @@
+.dashboard-card{
+    transition:.3s;
+    border-radius:18px;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+
+.table tbody tr{
+    transition:.25s;
+}
+
+.table tbody tr:hover{
+    transform:scale(1.01);
+}
+
+.modal-content{
+    border-radius:20px;
+}
+
+.card{
+    overflow:hidden;
+}
+
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
